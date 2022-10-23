@@ -30,7 +30,7 @@ $ pip install -r requirements.txt
 Nos posicionamos en la carpeta llamada `app` para poder iniciar el servidor y ejecutamos `main.py`
 
 ```sh
-$ cd BERT_fine_tunning/app
+$ cd app
 $ python main.py
 ```
 
