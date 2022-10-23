@@ -1,0 +1,25 @@
+[2022-10-22 22:21:28,512] INFO [1176-14608] Will watch for changes in these directories: ['C:\\Users\\norte\\Desktop\\Text-classification\\BERT_fine_tunning\\app']
+[2022-10-22 22:21:28,513] INFO [1176-14608] Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+[2022-10-22 22:21:28,513] INFO [1176-14608] Started reloader process [1176] using StatReload
+[2022-10-22 22:21:36,722] INFO [3952-15204] Started server process [3952]
+[2022-10-22 22:21:36,723] INFO [3952-15204] Waiting for application startup.
+[2022-10-22 22:21:36,724] INFO [3952-15204] Running envirnoment: development
+[2022-10-22 22:21:36,724] INFO [3952-15204] PyTorch using device: cuda
+[2022-10-22 22:21:37,433] INFO [3952-15204] Application startup complete.
+[2022-10-22 22:21:52,542] INFO [3952-15204] 127.0.0.1:63394 - "GET / HTTP/1.1" 404
+[2022-10-22 22:21:53,097] INFO [3952-15204] 127.0.0.1:63394 - "GET /favicon.ico HTTP/1.1" 404
+[2022-10-22 22:21:57,311] INFO [3952-15204] 127.0.0.1:63394 - "GET /docs HTTP/1.1" 200
+[2022-10-22 22:21:57,609] INFO [3952-15204] 127.0.0.1:63394 - "GET /openapi.json HTTP/1.1" 200
+[2022-10-22 22:22:21,340] INFO [3952-14512] API predict called
+[2022-10-22 22:22:21,341] INFO [3952-14512] input: input_msg='Hola, te ganaste un Toyota Rio nuevo, solo entra al siguiente enlace para poder contactarte nuevocarro.xyz/confia'
+[2022-10-22 22:22:25,768] INFO [3952-14512] results: {'result': 'Spam'}
+[2022-10-22 22:22:25,771] INFO [3952-15204] 127.0.0.1:63400 - "POST /api/v1/predict HTTP/1.1" 200
+[2022-10-22 22:22:48,585] INFO [3952-14512] API predict called
+[2022-10-22 22:22:48,586] INFO [3952-14512] input: input_msg='Hola, mucho gusto'
+[2022-10-22 22:22:48,652] INFO [3952-14512] results: {'result': 'Ham'}
+[2022-10-22 22:22:48,654] INFO [3952-15204] 127.0.0.1:63403 - "POST /api/v1/predict HTTP/1.1" 200
+[2022-10-22 22:25:16,296] INFO [3952-15204] Shutting down
+[2022-10-22 22:25:16,405] INFO [3952-15204] Waiting for application shutdown.
+[2022-10-22 22:25:16,405] INFO [3952-15204] Application shutdown complete.
+[2022-10-22 22:25:16,406] INFO [3952-15204] Finished server process [3952]
+[2022-10-22 22:25:16,693] INFO [1176-14608] Stopping reloader process [1176]
