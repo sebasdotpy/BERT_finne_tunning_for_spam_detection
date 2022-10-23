@@ -19,7 +19,8 @@ Para tener una correcta instalación de este proyecto usaremos Anaconda, primero
 $ conda create -n ENV_NAME python=3.8 -c conda-forge
 $ conda activate ENV_NAME
 
-# instalamos pytorch
+# instalamos pytorch para su uso con gpu NVIDIA
+# o con distintos drivers según su [pagina web](https://pytorch.org/get-started/locally/)
 $ conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 
 # instalacion del resto de librerias
